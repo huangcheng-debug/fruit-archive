@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>水果详情 - 水果知识档案</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- 顶部导航栏 -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="header-logo">
+        <span class="logo-icon">🍎</span>
+        <span>水果知识档案</span>
+      </a>
+      <div class="header-actions">
+        <a href="admin.html" class="btn btn-outline btn-sm">⚙️ 管理</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 详情页内容 -->
+  <main class="detail-page" id="detailPage">
+    <!-- 加载状态 -->
+    <div class="loading" id="detailLoading">
+      <div class="spinner"></div>
+    </div>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script>
+  /* ============================================
+     水果知识档案 - 详情页逻辑
+     ============================================ */
+
+  (function () {
+    'use strict';
+
+    async function init() {
+      // 获取 URL 参数中的水果 ID
+      const params = new URLSearchParams(window.location.search);
+      const fruitId = params.get('id');
+
+      if (!fruitId) {
+        showError('未指定水果 ID');
+        return;
+      }
+
+      // 加载数据
+      await FruitData.init();
+      const fruit = FruitData.getById(fruitId);
+
+      if (!fruit) {
+        showError('找不到该水果信息');
+        document.title = '未找到 - 水果知识档案';
+        return;
+      }
+
+      // 更新页面标题
+      document.title = `${fruit.name} - 水果知识档案`;
+
+      // 渲染详情
+      renderDetail(fruit);
+    }
+
+    function renderDetail(fruit) {
+      const page = document.getElementById('detailPage');
+
+      page.innerHTML = `
+        <!-- 返回按钮 -->
+        <a href="index.html" class="back-btn">← 返回水果列表</a>
+
+        <!-- 头部信息 -->
+        <header class="detail-header">
+          ${fruit.imageUrl ? `<img class="detail-image" src="${fruit.imageUrl}" alt="${fruit.name}" onerror="this.style.display='none';">` : ''}
+          <div class="detail-emoji"${fruit.imageUrl ? ' style="font-size:48px;"' : ''}>${fruit.emoji || '🍎'}</div>
+          <h1 class="detail-name">${fruit.name}</h1>
+          <p class="detail-scientific">${fruit.scientificName}</p>
+          <div class="detail-meta">
+            <div class="meta-item">
+              <span class="meta-label">分类</span>
+              <span class="meta-value">${fruit.category}</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">产地</span>
+              <span class="meta-value">${fruit.region}</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">季节</span>
+              <span class="meta-value">${fruit.season}</span>
+            </div>
+          </div>
+        </header>
+
+        <!-- 概述 -->
+        <section class="detail-card">
+          <h2>📝 概述</h2>
+          <p class="detail-text">${fruit.summary}</p>
+        </section>
+
+        <!-- 详细描述 -->
+        <section class="detail-card">
+          <h2>📖 详细介绍</h2>
+          <p class="detail-text">${fruit.description}</p>
+        </section>
+
+        <!-- 营养信息 -->
+        ${fruit.nutrition ? `
+        <section class="detail-card">
+          <h2>🔬 营养信息（每100克）</h2>
+          <div class="nutrition-grid">
+            ${fruit.nutrition.calories !== undefined ? `
+            <div class="nutrition-item">
+              <div><span class="nut-value">${fruit.nutrition.calories}</span><span class="nut-unit">kcal</span></div>
+              <div class="nut-label">热量</div>
+            </div>` : ''}
+            ${fruit.nutrition.vitaminC !== undefined ? `
+            <div class="nutrition-item">
+              <div><span class="nut-value">${fruit.nutrition.vitaminC}</span><span class="nut-unit">mg</span></div>
+              <div class="nut-label">维生素C</div>
+            </div>` : ''}
+            ${fruit.nutrition.fiber !== undefined ? `
+            <div class="nutrition-item">
+              <div><span class="nut-value">${fruit.nutrition.fiber}</span><span class="nut-unit">g</span></div>
+              <div class="nut-label">膳食纤维</div>
+            </div>` : ''}
+          </div>
+        </section>` : ''}
+
+        <!-- 营养元素 -->
+        ${fruit.nutrients && fruit.nutrients.length > 0 ? `
+        <section class="detail-card">
+          <h2>🌟 主要营养元素</h2>
+          <div class="nutrient-tags">
+            ${fruit.nutrients.map(n => `<span class="nutrient-tag">${n}</span>`).join('')}
+          </div>
+        </section>` : ''}
+
+        <!-- 趣味冷知识 -->
+        ${fruit.funFact ? `
+        <section class="detail-card">
+          <h2>💡 趣味冷知识</h2>
+          <div class="fun-fact-box">
+            <span class="ff-label">冷知识：</span>${fruit.funFact}
+          </div>
+        </section>` : ''}
+
+        <!-- 底部操作 -->
+        <div style="text-align:center; padding: var(--space-lg) 0;">
+          <a href="index.html" class="btn btn-outline" style="font-size: var(--font-size-base);">
+            ← 返回水果列表
+          </a>
+        </div>
+      `;
+    }
+
+    function showError(message) {
+      const page = document.getElementById('detailPage');
+      page.innerHTML = `
+        <div style="text-align:center; padding: 80px 20px;">
+          <div style="font-size:48px; margin-bottom:16px;">😕</div>
+          <p style="font-size:18px; color:#666;">${message}</p>
+          <a href="index.html" class="btn btn-outline" style="margin-top:20px; display:inline-block;">
+            ← 返回水果列表
+          </a>
+        </div>
+      `;
+    }
+
+    document.addEventListener('DOMContentLoaded', init);
+  })();
+  </script>
+</body>
+</html>

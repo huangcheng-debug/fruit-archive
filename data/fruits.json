@@ -1,0 +1,1333 @@
+[
+  {
+    "id": "apple",
+    "name": "苹果",
+    "scientificName": "Malus domestica",
+    "emoji": "🍎",
+    "category": "仁果类",
+    "region": "温带",
+    "season": "秋季",
+    "summary": "苹果是蔷薇科苹果属植物的果实，原产于中亚，是全球种植最广泛的水果之一。",
+    "description": "苹果树为落叶乔木，高3-5米。果实圆形，果皮颜色多样，清脆多汁，酸甜适中。富含果胶和多种维生素。",
+    "nutrition": {
+      "calories": 52,
+      "vitaminC": 4.6,
+      "fiber": 2.4
+    },
+    "nutrients": [
+      "膳食纤维",
+      "维生素C",
+      "钾",
+      "多酚",
+      "果胶"
+    ],
+    "imageUrl": "images/apple.jpg",
+    "videoUrl": "",
+    "funFact": "\"一天一苹果，医生远离我\"源自19世纪英国谚语。苹果皮含大量抗氧化物质，最好不削皮吃。",
+    "status": "published"
+  },
+  {
+    "id": "pear",
+    "name": "梨",
+    "scientificName": "Pyrus",
+    "emoji": "🍐",
+    "category": "仁果类",
+    "region": "温带",
+    "season": "秋季",
+    "summary": "梨是蔷薇科梨属植物的果实，栽培历史悠久，品种繁多，细嫩多汁。",
+    "description": "梨树为落叶乔木，果实呈梨形或圆形，果肉白色，细嫩多汁，甜中带酸。梨具有润肺止咳的功效。",
+    "nutrition": {
+      "calories": 51,
+      "vitaminC": 4,
+      "fiber": 3.1
+    },
+    "nutrients": [
+      "膳食纤维",
+      "维生素C",
+      "钾",
+      "铜",
+      "维生素K"
+    ],
+    "imageUrl": "images/pear.jpg",
+    "videoUrl": "",
+    "funFact": "梨在中国有3000多年的栽培历史，古人称梨为\"百果之宗\"。",
+    "status": "published"
+  },
+  {
+    "id": "hawthorn",
+    "name": "山楂",
+    "scientificName": "Crataegus pinnatifida",
+    "emoji": "🔴",
+    "category": "仁果类",
+    "region": "温带",
+    "season": "秋季",
+    "summary": "山楂是蔷薇科山楂属植物，酸中带甜，是传统的消食健胃水果。",
+    "description": "山楂树为落叶乔木，果实近球形，果皮深红色有浅色斑点。常见食用方式有冰糖葫芦、山楂糕等。",
+    "nutrition": {
+      "calories": 95,
+      "vitaminC": 53,
+      "fiber": 3.1
+    },
+    "nutrients": [
+      "维生素C",
+      "膳食纤维",
+      "钙",
+      "铁",
+      "黄酮类"
+    ],
+    "imageUrl": "images/hawthorn.jpg",
+    "videoUrl": "",
+    "funFact": "冰糖葫芦起源于南宋，最初是宫廷药膳，用山楂蘸糖帮助消化。",
+    "status": "published"
+  },
+  {
+    "id": "crabapple",
+    "name": "海棠果",
+    "scientificName": "Malus prunifolia",
+    "emoji": "🍒",
+    "category": "仁果类",
+    "region": "温带",
+    "season": "秋季",
+    "summary": "海棠果是蔷薇科苹果属植物，小巧玲珑，酸甜可口，是传统的北方小水果。",
+    "description": "海棠树为落叶小乔木，果实较小，呈卵形或球形，成熟后红色或黄色，果肉酸甜。",
+    "nutrition": {
+      "calories": 63,
+      "vitaminC": 20,
+      "fiber": 1.8
+    },
+    "nutrients": [
+      "维生素C",
+      "有机酸",
+      "膳食纤维",
+      "矿物质"
+    ],
+    "imageUrl": "images/crabapple.JPG",
+    "videoUrl": "",
+    "funFact": "海棠在中国传统文化中象征富贵吉祥，\"玉棠富贵\"中的棠指海棠。",
+    "status": "published"
+  },
+  {
+    "id": "banana",
+    "name": "香蕉",
+    "scientificName": "Musa acuminata",
+    "emoji": "🍌",
+    "category": "热带水果",
+    "region": "热带/亚热带",
+    "season": "全年",
+    "summary": "香蕉是芭蕉科芭蕉属植物，原产于东南亚，是全球贸易量最大的水果之一。",
+    "description": "香蕉植株是大型草本植物，果实成熟后呈黄色，软糯香甜，富含碳水化合物，是很好的能量来源。",
+    "nutrition": {
+      "calories": 89,
+      "vitaminC": 8.7,
+      "fiber": 2.6
+    },
+    "nutrients": [
+      "钾",
+      "维生素B6",
+      "维生素C",
+      "碳水化合物",
+      "镁"
+    ],
+    "imageUrl": "images/banana.jpg",
+    "videoUrl": "",
+    "funFact": "从植物学角度看香蕉是浆果，而草莓不是！香蕉符合浆果定义：单朵花单子房发育的肉质果实。",
+    "status": "published"
+  },
+  {
+    "id": "mango",
+    "name": "芒果",
+    "scientificName": "Mangifera indica",
+    "emoji": "🥭",
+    "category": "热带水果",
+    "region": "热带/亚热带",
+    "season": "夏季",
+    "summary": "芒果是漆树科芒果属植物，被誉为\"热带水果之王\"，香气浓郁，甜滑可口。",
+    "description": "芒果树为常绿乔木，果实肾形或卵形，果肉橙黄色，细腻多汁。可生食、制作果汁、冰淇淋等。",
+    "nutrition": {
+      "calories": 60,
+      "vitaminC": 36.4,
+      "fiber": 1.6
+    },
+    "nutrients": [
+      "维生素A",
+      "维生素C",
+      "叶酸",
+      "钾",
+      "膳食纤维"
+    ],
+    "imageUrl": "images/mango.jpg",
+    "videoUrl": "",
+    "funFact": "芒果在印度有4000多年栽培历史，被视为神圣水果，象征爱情和繁荣。",
+    "status": "published"
+  },
+  {
+    "id": "pineapple",
+    "name": "菠萝",
+    "scientificName": "Ananas comosus",
+    "emoji": "🍍",
+    "category": "热带水果",
+    "region": "热带/亚热带",
+    "season": "夏季",
+    "summary": "菠萝是凤梨科凤梨属植物，原产于南美洲，果肉酸甜多汁。",
+    "description": "菠萝为多年生草本，果实由小花聚合而成。果皮黄褐色有鳞片状突起，果肉金黄色，酸甜可口。",
+    "nutrition": {
+      "calories": 50,
+      "vitaminC": 47.8,
+      "fiber": 1.4
+    },
+    "nutrients": [
+      "维生素C",
+      "锰",
+      "维生素B6",
+      "菠萝蛋白酶"
+    ],
+    "imageUrl": "images/pineapple.jpg",
+    "videoUrl": "",
+    "funFact": "菠萝需18-20个月才成熟，每株只结一个果。吃菠萝舌头刺痛是因为菠萝蛋白酶在\"消化\"口腔黏膜。",
+    "status": "published"
+  },
+  {
+    "id": "durian",
+    "name": "榴莲",
+    "scientificName": "Durio zibethinus",
+    "emoji": "🫒",
+    "category": "热带水果",
+    "region": "热带",
+    "season": "夏季",
+    "summary": "榴莲是木棉科榴莲属植物，\"水果之王\"，气味浓烈独特，果肉金黄绵密。",
+    "description": "榴莲树为常绿乔木，高可达25米。果实巨大，外壳布满尖刺，每颗重2-4公斤。果肉奶油状，色泽金黄。",
+    "nutrition": {
+      "calories": 147,
+      "vitaminC": 19.7,
+      "fiber": 3.8
+    },
+    "nutrients": [
+      "碳水化合物",
+      "维生素C",
+      "钾",
+      "膳食纤维",
+      "B族维生素"
+    ],
+    "imageUrl": "images/durian.jpg",
+    "videoUrl": "",
+    "funFact": "榴莲因气味浓烈被禁带上飞机和许多公共交通工具。新加坡地铁站都有禁带榴莲标识。",
+    "status": "published"
+  },
+  {
+    "id": "lychee",
+    "name": "荔枝",
+    "scientificName": "Litchi chinensis",
+    "emoji": "🔴",
+    "category": "热带水果",
+    "region": "亚热带",
+    "season": "夏季",
+    "summary": "荔枝是无患子科荔枝属植物，原产中国南部，\"南国四大果品\"之一。",
+    "description": "荔枝树为常绿乔木，果实心形或圆形，果皮红色有鳞斑。果肉白色半透明，味甜多汁。",
+    "nutrition": {
+      "calories": 66,
+      "vitaminC": 71.5,
+      "fiber": 1.3
+    },
+    "nutrients": [
+      "维生素C",
+      "钾",
+      "铜",
+      "多酚"
+    ],
+    "imageUrl": "images/lychee.JPG",
+    "videoUrl": "",
+    "funFact": "杨贵妃爱吃荔枝，唐玄宗命人从岭南快马加鞭送至长安，\"一骑红尘妃子笑\"。",
+    "status": "published"
+  },
+  {
+    "id": "longan",
+    "name": "龙眼",
+    "scientificName": "Dimocarpus longan",
+    "emoji": "🟤",
+    "category": "热带水果",
+    "region": "亚热带",
+    "season": "夏末秋初",
+    "summary": "龙眼是无患子科龙眼属植物，果肉甜美温润，\"果中神品\"，传统滋补养生。",
+    "description": "龙眼树为常绿乔木，果实球形，果皮黄褐色，果肉白色半透明。可鲜食或晒干制成桂圆，常用于煲汤泡茶。",
+    "nutrition": {
+      "calories": 60,
+      "vitaminC": 84,
+      "fiber": 1.1
+    },
+    "nutrients": [
+      "维生素C",
+      "铁",
+      "钾",
+      "磷",
+      "葡萄糖"
+    ],
+    "imageUrl": "images/longan.jpg",
+    "videoUrl": "",
+    "funFact": "龙眼晒干后称\"桂圆\"，中医视为滋补佳品，民间有\"南桂圆，北人参\"之说。",
+    "status": "published"
+  },
+  {
+    "id": "dragon-fruit",
+    "name": "火龙果",
+    "scientificName": "Hylocereus undatus",
+    "emoji": "🐉",
+    "category": "热带水果",
+    "region": "热带/亚热带",
+    "season": "夏秋季",
+    "summary": "火龙果是仙人掌科量天尺属植物，外形奇特似火焰，果肉清爽甘甜。",
+    "description": "火龙果为攀援性仙人掌，果实椭圆形，果皮红色或黄色，有鳞片状突起。果肉白或红，布满黑色小籽。",
+    "nutrition": {
+      "calories": 50,
+      "vitaminC": 5.7,
+      "fiber": 2.8
+    },
+    "nutrients": [
+      "膳食纤维",
+      "花青素",
+      "维生素C",
+      "铁",
+      "镁"
+    ],
+    "imageUrl": "images/dragon-fruit.jpg",
+    "videoUrl": "",
+    "funFact": "火龙果花只在夜间开放，称\"月下皇后\"，每朵花只开一晚，天亮便凋谢。",
+    "status": "published"
+  },
+  {
+    "id": "mangosteen",
+    "name": "山竹",
+    "scientificName": "Garcinia mangostana",
+    "emoji": "🟣",
+    "category": "热带水果",
+    "region": "热带",
+    "season": "夏季",
+    "summary": "山竹是藤黄科藤黄属植物，\"水果皇后\"，果肉雪白嫩滑，与榴莲并称\"夫妻果\"。",
+    "description": "山竹树为常绿乔木，需8-10年才结果。果实圆形，果皮紫红色厚实，果肉白色分瓣似蒜瓣。",
+    "nutrition": {
+      "calories": 63,
+      "vitaminC": 2.9,
+      "fiber": 5.1
+    },
+    "nutrients": [
+      "膳食纤维",
+      "叶酸",
+      "锰",
+      "氧杂蒽酮"
+    ],
+    "imageUrl": "images/mangosteen.jpg",
+    "videoUrl": "",
+    "funFact": "山竹底部小花瓣数量决定果肉瓣数，数花瓣就知道里面有几瓣果肉。",
+    "status": "published"
+  },
+  {
+    "id": "coconut",
+    "name": "椰子",
+    "scientificName": "Cocos nucifera",
+    "emoji": "🥥",
+    "category": "热带水果",
+    "region": "热带",
+    "season": "全年",
+    "summary": "椰子是棕榈科椰子属植物，\"生命之树\"的果实，从椰汁到椰肉全身是宝。",
+    "description": "椰子树高15-30米。椰汁清凉解渴富含电解质，椰肉可生食、榨油或制作椰奶椰蓉。",
+    "nutrition": {
+      "calories": 354,
+      "vitaminC": 3.3,
+      "fiber": 9
+    },
+    "nutrients": [
+      "健康脂肪",
+      "锰",
+      "铜",
+      "铁",
+      "钾"
+    ],
+    "imageUrl": "images/coconut.jpg",
+    "videoUrl": "",
+    "funFact": "二战期间椰子水被用作静脉注射液替代品，因其电解质成分与人体血浆相似。",
+    "status": "published"
+  },
+  {
+    "id": "papaya",
+    "name": "木瓜",
+    "scientificName": "Carica papaya",
+    "emoji": "🟠",
+    "category": "热带水果",
+    "region": "热带/亚热带",
+    "season": "全年",
+    "summary": "木瓜是番木瓜科番木瓜属植物，果肉橙红柔软，含木瓜蛋白酶，\"百益果王\"。",
+    "description": "木瓜为多年生草本，果实椭圆形或梨形，果肉橙红柔软味甜。青木瓜可凉拌，熟木瓜可鲜食、炖汤。",
+    "nutrition": {
+      "calories": 43,
+      "vitaminC": 60.9,
+      "fiber": 1.7
+    },
+    "nutrients": [
+      "维生素A",
+      "维生素C",
+      "叶酸",
+      "钾",
+      "木瓜蛋白酶"
+    ],
+    "imageUrl": "images/papaya.jpg",
+    "videoUrl": "",
+    "funFact": "木瓜蛋白酶是嫩肉粉主要成分，可分解蛋白质使肉质变嫩。青木瓜炖排骨就是利用此原理。",
+    "status": "published"
+  },
+  {
+    "id": "star-fruit",
+    "name": "杨桃",
+    "scientificName": "Averrhoa carambola",
+    "emoji": "⭐",
+    "category": "热带水果",
+    "region": "热带/亚热带",
+    "season": "秋季",
+    "summary": "杨桃是酢浆草科杨桃属植物，横切呈五角星形，外形独特美观，清脆多汁。",
+    "description": "杨桃树为常绿乔木，果实有5条纵棱，横切呈五角星形。果皮薄而光滑，成熟时黄色，果肉清脆多汁。",
+    "nutrition": {
+      "calories": 31,
+      "vitaminC": 34.4,
+      "fiber": 2.8
+    },
+    "nutrients": [
+      "维生素C",
+      "膳食纤维",
+      "钾",
+      "铜"
+    ],
+    "imageUrl": "images/star-fruit.jpg",
+    "videoUrl": "",
+    "funFact": "肾功能不全者应避免食用杨桃，因其含神经毒素，肾病患者会产生严重中毒反应。",
+    "status": "published"
+  },
+  {
+    "id": "guava",
+    "name": "番石榴",
+    "scientificName": "Psidium guajava",
+    "emoji": "🟢",
+    "category": "热带水果",
+    "region": "热带/亚热带",
+    "season": "夏秋季",
+    "summary": "番石榴是桃金娘科番石榴属植物，维生素C含量极高，是橙子的4倍。",
+    "description": "番石榴树为常绿灌木，果实球形或梨形，果肉白色、粉色或红色，有独特香气。维生素C含量极高。",
+    "nutrition": {
+      "calories": 68,
+      "vitaminC": 228.3,
+      "fiber": 5.4
+    },
+    "nutrients": [
+      "维生素C",
+      "维生素A",
+      "膳食纤维",
+      "叶酸",
+      "钾"
+    ],
+    "imageUrl": "images/guava.jpg",
+    "videoUrl": "",
+    "funFact": "番石榴维生素C含量是橙子4倍、柠檬10倍，是名副其实的维C大户。",
+    "status": "published"
+  },
+  {
+    "id": "wax-apple",
+    "name": "莲雾",
+    "scientificName": "Syzygium samarangense",
+    "emoji": "🔔",
+    "category": "热带水果",
+    "region": "热带",
+    "season": "夏季",
+    "summary": "莲雾是桃金娘科蒲桃属植物，果实形似铃铛，色泽鲜红，清脆微甜水分足。",
+    "description": "莲雾树为常绿乔木，果实钟形或梨形，果皮有光泽，粉红到深红色。果肉白色清脆多汁，含水量90%以上。",
+    "nutrition": {
+      "calories": 25,
+      "vitaminC": 34,
+      "fiber": 1.5
+    },
+    "nutrients": [
+      "维生素C",
+      "膳食纤维",
+      "钾",
+      "钙"
+    ],
+    "imageUrl": "images/wax-apple.jpg",
+    "videoUrl": "",
+    "funFact": "莲雾水分含量超90%，几乎就是\"可以咬着吃的矿泉水\"。",
+    "status": "published"
+  },
+  {
+    "id": "rambutan",
+    "name": "红毛丹",
+    "scientificName": "Nephelium lappaceum",
+    "emoji": "🦔",
+    "category": "热带水果",
+    "region": "热带",
+    "season": "夏季",
+    "summary": "红毛丹是无患子科韶子属植物，外壳长满红色软毛，果肉晶莹似荔枝。",
+    "description": "红毛丹树为常绿乔木，果实椭圆形，果皮红色或黄色密布柔软刺毛。果肉白色半透明多汁甘甜。",
+    "nutrition": {
+      "calories": 82,
+      "vitaminC": 4.9,
+      "fiber": 0.9
+    },
+    "nutrients": [
+      "碳水化合物",
+      "铁",
+      "钙",
+      "磷",
+      "维生素C"
+    ],
+    "imageUrl": "images/rambutan.jpg",
+    "videoUrl": "",
+    "funFact": "红毛丹马来语意为\"毛茸茸之物\"，英文Rambutan也源于马来语rambut（毛发）。",
+    "status": "published"
+  },
+  {
+    "id": "salak",
+    "name": "蛇皮果",
+    "scientificName": "Salacca zalacca",
+    "emoji": "🐍",
+    "category": "热带水果",
+    "region": "热带",
+    "season": "全年",
+    "summary": "蛇皮果是棕榈科蛇皮果属植物，果皮红棕色鳞片状酷似蛇皮，果肉酸甜爽脆。",
+    "description": "蛇皮果为棕榈科植物，簇生于树干基部。果实水滴形，果皮红棕色鳞片纹理。果肉分瓣，白色或淡黄色。",
+    "nutrition": {
+      "calories": 77,
+      "vitaminC": 2,
+      "fiber": 2
+    },
+    "nutrients": [
+      "钾",
+      "钙",
+      "铁",
+      "β-胡萝卜素"
+    ],
+    "imageUrl": "images/salak.jpg",
+    "videoUrl": "",
+    "funFact": "蛇皮果是印尼特色水果，新鲜剥开后要尽快食用否则氧化变色。",
+    "status": "published"
+  },
+  {
+    "id": "sugar-apple",
+    "name": "释迦",
+    "scientificName": "Annona squamosa",
+    "emoji": "🧅",
+    "category": "热带水果",
+    "region": "热带/亚热带",
+    "season": "秋季",
+    "summary": "释迦是番荔枝科番荔枝属植物，外形似佛头，果肉乳白绵密甜如蜜糖。",
+    "description": "释迦树为落叶小乔木，果实由多数心皮聚合，形似佛祖发髻。果肉乳白色绵密如冰淇淋，甜度极高。",
+    "nutrition": {
+      "calories": 94,
+      "vitaminC": 36.3,
+      "fiber": 4.4
+    },
+    "nutrients": [
+      "维生素C",
+      "膳食纤维",
+      "维生素B6",
+      "钾",
+      "镁"
+    ],
+    "imageUrl": "images/sugar-apple.jpg",
+    "videoUrl": "",
+    "funFact": "释迦糖度可达25度以上比可乐还甜，但因富含膳食纤维，升糖速度反而不快。",
+    "status": "published"
+  },
+  {
+    "id": "passion-fruit",
+    "name": "百香果",
+    "scientificName": "Passiflora edulis",
+    "emoji": "🟡",
+    "category": "热带水果",
+    "region": "热带/亚热带",
+    "season": "夏秋季",
+    "summary": "百香果是西番莲科西番莲属植物，集百果香味于一身，天然\"果汁之王\"。",
+    "description": "百香果为藤本植物，果实圆形或椭圆形，果皮紫红或黄色。果肉橙黄浆状包裹黑籽，酸甜香气浓郁。",
+    "nutrition": {
+      "calories": 97,
+      "vitaminC": 30,
+      "fiber": 10.4
+    },
+    "nutrients": [
+      "膳食纤维",
+      "维生素C",
+      "维生素A",
+      "钾",
+      "铁"
+    ],
+    "imageUrl": "images/passion-fruit.jpg",
+    "videoUrl": "",
+    "funFact": "百香果名字源于其香气，据说融合菠萝、香蕉、草莓、芒果等100多种水果的香味。",
+    "status": "published"
+  },
+  {
+    "id": "avocado",
+    "name": "牛油果",
+    "scientificName": "Persea americana",
+    "emoji": "🥑",
+    "category": "热带水果",
+    "region": "热带/亚热带",
+    "season": "全年",
+    "summary": "牛油果是樟科鳄梨属植物，富含健康脂肪，口感奶油般绵密，\"森林黄油\"。",
+    "description": "牛油果树为常绿乔木，果实梨形或卵形，果皮暗绿至紫黑。果肉黄绿色绵密如黄油，富含单不饱和脂肪酸。",
+    "nutrition": {
+      "calories": 160,
+      "vitaminC": 10,
+      "fiber": 6.7
+    },
+    "nutrients": [
+      "健康脂肪",
+      "膳食纤维",
+      "维生素K",
+      "叶酸",
+      "钾"
+    ],
+    "imageUrl": "images/avocado.JPG",
+    "videoUrl": "",
+    "funFact": "牛油果是大型浆果，钾含量比香蕉还高，是最适合健身人群的水果之一。",
+    "status": "published"
+  },
+  {
+    "id": "orange",
+    "name": "橙子",
+    "scientificName": "Citrus sinensis",
+    "emoji": "🍊",
+    "category": "柑橘类",
+    "region": "亚热带/温带",
+    "season": "冬季",
+    "summary": "橙子是芸香科柑橘属植物，全球产量最大的柑橘类水果，以丰富维C和甜美口感深受喜爱。",
+    "description": "橙树为常绿小乔木，果实圆形或椭圆形，果皮橙黄有芳香。果肉分瓣汁多味甜。脐橙、血橙是常见特色品种。",
+    "nutrition": {
+      "calories": 47,
+      "vitaminC": 53.2,
+      "fiber": 2.4
+    },
+    "nutrients": [
+      "维生素C",
+      "膳食纤维",
+      "叶酸",
+      "钾",
+      "类黄酮"
+    ],
+    "imageUrl": "images/orange.jpg",
+    "videoUrl": "",
+    "funFact": "一个中等橙子就能满足成人一天所需维生素C，是最好天然维C来源之一。",
+    "status": "published"
+  },
+  {
+    "id": "lemon",
+    "name": "柠檬",
+    "scientificName": "Citrus limon",
+    "emoji": "🍋",
+    "category": "柑橘类",
+    "region": "亚热带/温带",
+    "season": "全年",
+    "summary": "柠檬是芸香科柑橘属植物，以酸著称，富含维生素C和柠檬酸，烹饪饮品不可或缺。",
+    "description": "柠檬树为常绿小乔木，果实椭圆形，果皮黄色富含精油。果肉极酸含柠檬酸5-6%。用于调味、泡水、调酒。",
+    "nutrition": {
+      "calories": 29,
+      "vitaminC": 53,
+      "fiber": 2.8
+    },
+    "nutrients": [
+      "维生素C",
+      "柠檬酸",
+      "类黄酮",
+      "钾",
+      "钙"
+    ],
+    "imageUrl": "images/lemon.JPG",
+    "videoUrl": "",
+    "funFact": "18世纪英国海军发现柠檬可预防坏血病，从此水手获\"Limey\"绰号。",
+    "status": "published"
+  },
+  {
+    "id": "pomelo",
+    "name": "柚子",
+    "scientificName": "Citrus maxima",
+    "emoji": "🍈",
+    "category": "柑橘类",
+    "region": "亚热带",
+    "season": "秋冬季",
+    "summary": "柚子是芸香科柑橘属植物，柑橘家族\"巨无霸\"，中秋节传统应节水果。",
+    "description": "柚树为常绿乔木，果实巨大，球形或梨形，单果重1-3公斤。果皮厚实黄色或绿色。常见有沙田柚、文旦柚。",
+    "nutrition": {
+      "calories": 38,
+      "vitaminC": 61,
+      "fiber": 1
+    },
+    "nutrients": [
+      "维生素C",
+      "钾",
+      "叶酸",
+      "维生素B6"
+    ],
+    "imageUrl": "images/pomelo.jpg",
+    "videoUrl": "",
+    "funFact": "柚子象征团圆和吉祥，中秋节吃柚子寓意\"保佑\"平安。",
+    "status": "published"
+  },
+  {
+    "id": "kumquat",
+    "name": "金桔",
+    "scientificName": "Citrus japonica",
+    "emoji": "🍊",
+    "category": "柑橘类",
+    "region": "亚热带",
+    "season": "冬季",
+    "summary": "金桔是芸香科金桔属植物，可连皮吃，皮甜肉酸风味独特。",
+    "description": "金桔为常绿灌木，果实小型椭圆形，果皮金黄光滑。可连皮食用：果皮甘甜果肉微酸。可鲜食、蜜渍、制茶。",
+    "nutrition": {
+      "calories": 55,
+      "vitaminC": 43.9,
+      "fiber": 6.5
+    },
+    "nutrients": [
+      "维生素C",
+      "膳食纤维",
+      "钙",
+      "钾"
+    ],
+    "imageUrl": "images/kumquat.jpg",
+    "videoUrl": "",
+    "funFact": "金桔是少数可连皮吃的水果，果皮甜味和果肉酸味形成奇妙平衡。金桔树也是热门年宵花。",
+    "status": "published"
+  },
+  {
+    "id": "grape",
+    "name": "葡萄",
+    "scientificName": "Vitis vinifera",
+    "emoji": "🍇",
+    "category": "浆果类",
+    "region": "温带",
+    "season": "夏秋季",
+    "summary": "葡萄是葡萄科葡萄属植物，人类最早驯化的水果之一，可鲜食、酿酒、制干。",
+    "description": "葡萄为藤本植物，果实成串生长，颜色有绿、红、紫、黑等。品种繁多，有鲜食、酿酒、制干之分。",
+    "nutrition": {
+      "calories": 69,
+      "vitaminC": 3.2,
+      "fiber": 0.9
+    },
+    "nutrients": [
+      "维生素K",
+      "铜",
+      "维生素B6",
+      "白藜芦醇",
+      "花青素"
+    ],
+    "imageUrl": "images/grape.jpg",
+    "videoUrl": "",
+    "funFact": "葡萄是人类最早驯化水果之一，考古发现7000年前就有人类酿造葡萄酒遗迹。",
+    "status": "published"
+  },
+  {
+    "id": "strawberry",
+    "name": "草莓",
+    "scientificName": "Fragaria × ananassa",
+    "emoji": "🍓",
+    "category": "浆果类",
+    "region": "温带",
+    "season": "冬春季",
+    "summary": "草莓是蔷薇科草莓属植物，鲜艳红润甜美多汁，世界最受欢迎浆果之一。",
+    "description": "草莓为多年生草本，果实由花托膨大而成，表面小颗粒才是真正果实。心形或圆锥形，鲜红细腻多汁。",
+    "nutrition": {
+      "calories": 32,
+      "vitaminC": 58.8,
+      "fiber": 2
+    },
+    "nutrients": [
+      "维生素C",
+      "锰",
+      "叶酸",
+      "花青素",
+      "鞣花酸"
+    ],
+    "imageUrl": "images/strawberry.jpg",
+    "videoUrl": "",
+    "funFact": "草莓是唯一种子长在外面的水果，每颗草莓表面平均有200颗小种子（瘦果）。",
+    "status": "published"
+  },
+  {
+    "id": "blueberry",
+    "name": "蓝莓",
+    "scientificName": "Vaccinium corymbosum",
+    "emoji": "🫐",
+    "category": "浆果类",
+    "region": "温带",
+    "season": "夏季",
+    "summary": "蓝莓是杜鹃花科越橘属植物，花青素含量极高，\"超级水果\"，抗氧化食物明星。",
+    "description": "蓝莓为灌木，果实圆形深蓝色有白色果粉。果肉细腻酸甜，花青素和抗氧化物质含量极高，被称为\"超级食物\"。",
+    "nutrition": {
+      "calories": 57,
+      "vitaminC": 9.7,
+      "fiber": 2.4
+    },
+    "nutrients": [
+      "花青素",
+      "维生素C",
+      "维生素K",
+      "锰",
+      "膳食纤维"
+    ],
+    "imageUrl": "images/blueberry.jpg",
+    "videoUrl": "",
+    "funFact": "二战期间英国飞行员夜间任务前吃蓝莓果酱，因花青素有助于改善夜视能力。",
+    "status": "published"
+  },
+  {
+    "id": "kiwi",
+    "name": "猕猴桃",
+    "scientificName": "Actinidia deliciosa",
+    "emoji": "🥝",
+    "category": "浆果类",
+    "region": "温带/亚热带",
+    "season": "秋季",
+    "summary": "猕猴桃是猕猴桃科猕猴桃属植物，原产中国，维C含量极高，\"维C之王\"。",
+    "description": "猕猴桃为藤本植物，果实椭圆形，果皮褐色有绒毛。果肉绿色或黄色，中间黑籽。原产中国长江流域，后引入新西兰。",
+    "nutrition": {
+      "calories": 61,
+      "vitaminC": 92.7,
+      "fiber": 3
+    },
+    "nutrients": [
+      "维生素C",
+      "维生素K",
+      "膳食纤维",
+      "钾",
+      "叶酸"
+    ],
+    "imageUrl": "images/kiwi.jpg",
+    "videoUrl": "",
+    "funFact": "猕猴桃原产中国称\"中华猕猴桃\"。新西兰人命名为Kiwi（几维鸟），因外表像新西兰国鸟。",
+    "status": "published"
+  },
+  {
+    "id": "pomegranate",
+    "name": "石榴",
+    "scientificName": "Punica granatum",
+    "emoji": "🫐",
+    "category": "浆果类",
+    "region": "温带/亚热带",
+    "season": "秋季",
+    "summary": "石榴是千屈菜科石榴属植物，红宝石般籽粒，多子多福象征，抗氧化出众。",
+    "description": "石榴为落叶灌木，果实球形果皮厚实。果内充满数百颗多汁籽粒（假种皮），石榴汁色如红宝石富含多酚花青素。",
+    "nutrition": {
+      "calories": 83,
+      "vitaminC": 10.2,
+      "fiber": 4
+    },
+    "nutrients": [
+      "多酚",
+      "花青素",
+      "维生素C",
+      "维生素K",
+      "钾"
+    ],
+    "imageUrl": "",
+    "videoUrl": "",
+    "funFact": "石榴象征多子多福，希腊神话中是阴阳两界媒介。一颗石榴可含200-1400颗籽粒。",
+    "status": "published"
+  },
+  {
+    "id": "bayberry",
+    "name": "杨梅",
+    "scientificName": "Myrica rubra",
+    "emoji": "🔴",
+    "category": "浆果类",
+    "region": "亚热带",
+    "season": "初夏",
+    "summary": "杨梅是杨梅科杨梅属植物，中国特产，果实深红如血，酸甜多汁盛夏馈赠。",
+    "description": "杨梅树为常绿乔木，果实为核果球形，表面有突起。成熟时深红或紫红，果肉柔软多汁。鲜食期极短可加工成杨梅酒。",
+    "nutrition": {
+      "calories": 30,
+      "vitaminC": 9,
+      "fiber": 1
+    },
+    "nutrients": [
+      "花青素",
+      "维生素C",
+      "有机酸",
+      "钾",
+      "铁"
+    ],
+    "imageUrl": "images/bayberry.jpg",
+    "videoUrl": "",
+    "funFact": "\"望梅止渴\"典故中曹操提到的梅就是杨梅。杨梅鲜食期只有两周左右。",
+    "status": "published"
+  },
+  {
+    "id": "mulberry",
+    "name": "桑葚",
+    "scientificName": "Morus alba",
+    "emoji": "🟣",
+    "category": "浆果类",
+    "region": "温带/亚热带",
+    "season": "春末夏初",
+    "summary": "桑葚是桑科桑属植物，紫黑多汁甘甜滋补，蚕桑文化副产品，传统养生佳果。",
+    "description": "桑树为落叶乔木，果实聚花果由小核果聚合。长圆形由红转紫黑多汁甘甜。桑叶养蚕，桑葚是副产品。",
+    "nutrition": {
+      "calories": 43,
+      "vitaminC": 36.4,
+      "fiber": 1.7
+    },
+    "nutrients": [
+      "花青素",
+      "铁",
+      "维生素C",
+      "白藜芦醇",
+      "钙"
+    ],
+    "imageUrl": "images/mulberry.jpg",
+    "videoUrl": "",
+    "funFact": "桑树全身是宝：桑叶养蚕，桑葚食用，桑枝入药，桑皮造纸。中国有5000多年蚕桑文明。",
+    "status": "published"
+  },
+  {
+    "id": "cranberry",
+    "name": "蔓越莓",
+    "scientificName": "Vaccinium macrocarpon",
+    "emoji": "🔴",
+    "category": "浆果类",
+    "region": "寒温带",
+    "season": "秋季",
+    "summary": "蔓越莓是杜鹃花科越橘属植物，北美红色小浆果，以预防尿路感染功效闻名。",
+    "description": "蔓越莓为常绿矮灌木，生长在酸性泥炭土。果实深红极酸，通常加工成果汁果干果酱。含独特A型原花青素。",
+    "nutrition": {
+      "calories": 46,
+      "vitaminC": 14,
+      "fiber": 4.6
+    },
+    "nutrients": [
+      "原花青素",
+      "维生素C",
+      "膳食纤维",
+      "锰",
+      "维生素E"
+    ],
+    "imageUrl": "images/cranberry.jpg",
+    "videoUrl": "",
+    "funFact": "蔓越莓果内空腔可浮水面。商业采收灌满水田用机器打落让果实漂在水面收集。",
+    "status": "published"
+  },
+  {
+    "id": "blackberry",
+    "name": "黑莓",
+    "scientificName": "Rubus fruticosus",
+    "emoji": "⚫",
+    "category": "浆果类",
+    "region": "温带",
+    "season": "夏秋季",
+    "summary": "黑莓是蔷薇科悬钩子属植物，紫黑聚合果，酸甜浓郁抗氧化能力出色。",
+    "description": "黑莓为灌木茎上长刺。果实聚合果由小核果聚合，紫黑柔软多汁。抗氧化能力在水果中名列前茅。",
+    "nutrition": {
+      "calories": 43,
+      "vitaminC": 21,
+      "fiber": 5.3
+    },
+    "nutrients": [
+      "花青素",
+      "维生素C",
+      "膳食纤维",
+      "维生素K",
+      "锰"
+    ],
+    "imageUrl": "images/blackberry.jpg",
+    "videoUrl": "",
+    "funFact": "黑莓和覆盆子区别：采摘时黑莓白色花托留在果实里，覆盆子花托留在植株上。",
+    "status": "published"
+  },
+  {
+    "id": "raspberry",
+    "name": "覆盆子",
+    "scientificName": "Rubus idaeus",
+    "emoji": "🔴",
+    "category": "浆果类",
+    "region": "温带",
+    "season": "夏季",
+    "summary": "覆盆子是蔷薇科悬钩子属植物，鲜红娇嫩浆果，口感柔滑香气独特，甜点经典食材。",
+    "description": "覆盆子为灌木，果实聚合果，成熟后鲜红，中空（花托留在植株上）。口感柔滑酸甜，香气独特。",
+    "nutrition": {
+      "calories": 52,
+      "vitaminC": 26.2,
+      "fiber": 6.5
+    },
+    "nutrients": [
+      "维生素C",
+      "膳食纤维",
+      "锰",
+      "鞣花酸",
+      "花青素"
+    ],
+    "imageUrl": "",
+    "videoUrl": "",
+    "funFact": "覆盆子采摘后果实中空像倒扣的小盆，\"覆盆子\"名字由此而来。",
+    "status": "published"
+  },
+  {
+    "id": "cherry",
+    "name": "樱桃",
+    "scientificName": "Prunus avium",
+    "emoji": "🍒",
+    "category": "核果类",
+    "region": "温带",
+    "season": "春末夏初",
+    "summary": "樱桃是蔷薇科李属植物，小巧红润，甜美多汁，\"春果第一枝\"，象征美好。",
+    "description": "樱桃树为落叶乔木，果实小型球形或心形，果皮鲜红或紫红，果肉甜美多汁。是最早上市的夏季水果之一。",
+    "nutrition": {
+      "calories": 63,
+      "vitaminC": 7,
+      "fiber": 2.1
+    },
+    "nutrients": [
+      "花青素",
+      "维生素C",
+      "钾",
+      "褪黑素"
+    ],
+    "imageUrl": "images/cherry.jpg",
+    "videoUrl": "",
+    "funFact": "樱桃含天然褪黑素，睡前吃樱桃有助于改善睡眠质量。",
+    "status": "published"
+  },
+  {
+    "id": "peach",
+    "name": "桃子",
+    "scientificName": "Prunus persica",
+    "emoji": "🍑",
+    "category": "核果类",
+    "region": "温带",
+    "season": "夏季",
+    "summary": "桃子是蔷薇科李属植物，原产中国，鲜嫩多汁，\"仙桃\"象征长寿吉祥。",
+    "description": "桃树为落叶小乔木，果实球形或扁球形，果皮有绒毛。果肉白或黄色，多汁甜美。有蜜桃、黄桃、蟠桃等多种。",
+    "nutrition": {
+      "calories": 39,
+      "vitaminC": 6.6,
+      "fiber": 1.5
+    },
+    "nutrients": [
+      "维生素A",
+      "维生素C",
+      "钾",
+      "烟酸"
+    ],
+    "imageUrl": "images/peach.jpg",
+    "videoUrl": "",
+    "funFact": "桃子在中国有4000多年栽培史，\"蟠桃\"是长寿象征。中国是世界最大产桃国。",
+    "status": "published"
+  },
+  {
+    "id": "plum",
+    "name": "李子",
+    "scientificName": "Prunus salicina",
+    "emoji": "🟣",
+    "category": "核果类",
+    "region": "温带",
+    "season": "夏季",
+    "summary": "李子是蔷薇科李属植物，品种繁多，酸甜可口，\"桃李满天下\"的文化象征。",
+    "description": "李树为落叶乔木，果实球形或卵形，果皮紫红、黄、绿等多种颜色。果肉多汁酸甜，维生素和矿物质丰富。",
+    "nutrition": {
+      "calories": 46,
+      "vitaminC": 9.5,
+      "fiber": 1.4
+    },
+    "nutrients": [
+      "维生素C",
+      "维生素K",
+      "铜",
+      "花青素"
+    ],
+    "imageUrl": "images/plum.jpg",
+    "videoUrl": "",
+    "funFact": "\"桃李满天下\"形容老师学生众多遍布各地，\"李\"在中国文化中象征学子人才。",
+    "status": "published"
+  },
+  {
+    "id": "apricot",
+    "name": "杏",
+    "scientificName": "Prunus armeniaca",
+    "emoji": "🟠",
+    "category": "核果类",
+    "region": "温带",
+    "season": "初夏",
+    "summary": "杏是蔷薇科李属植物，橙黄小巧，酸甜可口，杏仁也可食用或入药。",
+    "description": "杏树为落叶乔木，果实球形，果皮橙黄有绒毛。果肉酸甜，可鲜食、制杏干、杏脯、杏酱。杏仁有甜杏仁和苦杏仁之分。",
+    "nutrition": {
+      "calories": 48,
+      "vitaminC": 10,
+      "fiber": 2
+    },
+    "nutrients": [
+      "维生素A",
+      "维生素C",
+      "钾",
+      "膳食纤维"
+    ],
+    "imageUrl": "images/apricot.jpg",
+    "videoUrl": "",
+    "funFact": "\"杏林\"是中医界的代称。三国名医董奉为人治病不收钱，只让种杏树，后成杏林。",
+    "status": "published"
+  },
+  {
+    "id": "cherry-sweet",
+    "name": "车厘子",
+    "scientificName": "Prunus avium",
+    "emoji": "🍒",
+    "category": "核果类",
+    "region": "温带",
+    "season": "夏季",
+    "summary": "车厘子是欧洲甜樱桃品种，比中国樱桃更大更甜，色泽深红饱满，是高价值水果。",
+    "description": "车厘子（Cherries音译）与樱桃同种，但品种不同。果实更大，直径2-3厘米，果肉更厚更甜，色泽深红到紫黑。",
+    "nutrition": {
+      "calories": 63,
+      "vitaminC": 7,
+      "fiber": 2.1
+    },
+    "nutrients": [
+      "花青素",
+      "维生素C",
+      "钾",
+      "铁"
+    ],
+    "imageUrl": "images/cherry-sweet.jpg",
+    "videoUrl": "",
+    "funFact": "\"车厘子\"是Cherries的音译，本质上就是欧洲甜樱桃品种。主要产自美国、智利、澳洲。",
+    "status": "published"
+  },
+  {
+    "id": "jujube",
+    "name": "红枣",
+    "scientificName": "Ziziphus jujuba",
+    "emoji": "🔴",
+    "category": "核果类",
+    "region": "温带",
+    "season": "秋季",
+    "summary": "红枣是鼠李科枣属植物，\"天然维生素丸\"，中国传统的滋补佳品，药食同源。",
+    "description": "枣树为落叶乔木，果实椭圆形或球形，成熟后由青转红。鲜食清脆甘甜，晒干后为红枣，常用于煲汤、泡茶、药膳。",
+    "nutrition": {
+      "calories": 79,
+      "vitaminC": 243,
+      "fiber": 6.2
+    },
+    "nutrients": [
+      "维生素C",
+      "铁",
+      "膳食纤维",
+      "环磷酸腺苷",
+      "钾"
+    ],
+    "imageUrl": "images/jujube.jpg",
+    "videoUrl": "",
+    "funFact": "鲜枣维生素C含量极高是苹果的50倍，红枣是中国传统\"五果\"（桃李梅杏枣）之一。",
+    "status": "published"
+  },
+  {
+    "id": "olive",
+    "name": "橄榄",
+    "scientificName": "Olea europaea",
+    "emoji": "🫒",
+    "category": "核果类",
+    "region": "亚热带",
+    "season": "秋季",
+    "summary": "橄榄是木犀科木犀榄属植物，地中海饮食核心，橄榄油被誉为\"液体黄金\"。",
+    "description": "橄榄树为常绿乔木，寿命极长可达数百年。果实椭圆形，青绿色转紫黑。通常腌制后食用或榨取橄榄油。橄榄油是地中海饮食的基础。",
+    "nutrition": {
+      "calories": 115,
+      "vitaminC": 0,
+      "fiber": 2.5
+    },
+    "nutrients": [
+      "单不饱和脂肪酸",
+      "维生素E",
+      "铁",
+      "铜",
+      "多酚"
+    ],
+    "imageUrl": "images/olive.jpg",
+    "videoUrl": "",
+    "funFact": "橄榄树极长寿，有的超过2000年仍结果。希腊雅典卫城旁的橄榄树传说已有2500年历史。",
+    "status": "published"
+  },
+  {
+    "id": "watermelon",
+    "name": "西瓜",
+    "scientificName": "Citrullus lanatus",
+    "emoji": "🍉",
+    "category": "瓜果类",
+    "region": "温带/亚热带",
+    "season": "夏季",
+    "summary": "西瓜是葫芦科西瓜属植物，夏日消暑圣品，汁多味甜，含水量超90%，\"夏季瓜果之王\"。",
+    "description": "西瓜为一年生藤本植物，果实大型球形或椭圆形，果皮绿色有条纹。瓤红色或黄色，多汁甘甜。原产非洲，中国是全球最大西瓜生产国。",
+    "nutrition": {
+      "calories": 30,
+      "vitaminC": 8.1,
+      "fiber": 0.4
+    },
+    "nutrients": [
+      "维生素A",
+      "维生素C",
+      "钾",
+      "番茄红素",
+      "瓜氨酸"
+    ],
+    "imageUrl": "images/watermelon.jpg",
+    "videoUrl": "",
+    "funFact": "中国西瓜产量占全球60%以上，是全球最大西瓜生产国和消费国。西瓜原产非洲沙漠地区。",
+    "status": "published"
+  },
+  {
+    "id": "cantaloupe",
+    "name": "哈密瓜",
+    "scientificName": "Cucumis melo var. cantalupensis",
+    "emoji": "🍈",
+    "category": "瓜果类",
+    "region": "温带",
+    "season": "夏秋季",
+    "summary": "哈密瓜是葫芦科甜瓜属植物，新疆特产，肉质细腻甜度高，\"瓜中之王\"。",
+    "description": "哈密瓜为一年生藤本，果实椭圆形或圆形，果皮黄绿色有网纹。果肉橙黄色或白色，肉质细腻极甜。新疆日照充足温差大，最适合哈密瓜生长。",
+    "nutrition": {
+      "calories": 34,
+      "vitaminC": 36.7,
+      "fiber": 0.9
+    },
+    "nutrients": [
+      "维生素A",
+      "维生素C",
+      "钾",
+      "β-胡萝卜素"
+    ],
+    "imageUrl": "images/cantaloupe.jpg",
+    "videoUrl": "",
+    "funFact": "正宗哈密瓜产自新疆哈密地区，因康熙年间哈密王进贡而得名。新疆日照长温差大造就了极甜口感。",
+    "status": "published"
+  },
+  {
+    "id": "melon",
+    "name": "甜瓜",
+    "scientificName": "Cucumis melo",
+    "emoji": "🍈",
+    "category": "瓜果类",
+    "region": "温带",
+    "season": "夏季",
+    "summary": "甜瓜是葫芦科甜瓜属植物，品种繁多，香甜可口，是夏季主要水果之一。",
+    "description": "甜瓜为一年生藤本，品种繁多，有白皮、黄皮、绿皮等。果肉有白、绿、橙等色，肉质脆嫩或绵软。常见品种有香瓜、白兰瓜、伊丽莎白瓜等。",
+    "nutrition": {
+      "calories": 26,
+      "vitaminC": 15,
+      "fiber": 0.8
+    },
+    "nutrients": [
+      "维生素C",
+      "钾",
+      "叶酸",
+      "β-胡萝卜素"
+    ],
+    "imageUrl": "",
+    "videoUrl": "",
+    "funFact": "甜瓜是人类最早驯化的水果之一，考古证据显示古埃及人在4000年前就种植甜瓜。",
+    "status": "published"
+  },
+  {
+    "id": "grapefruit",
+    "name": "西柚",
+    "scientificName": "Citrus paradisi",
+    "emoji": "🟠",
+    "category": "柑橘类",
+    "region": "亚热带",
+    "season": "冬春季",
+    "summary": "西柚是芸香科柑橘属植物，酸甜微苦，热量低，健身减脂热门水果。",
+    "description": "西柚为常绿乔木，果实比橙子大，果皮黄色，果肉红色或粉红色。口感酸甜中带独特微苦。红肉品种比白肉更甜，茄红素含量更高。",
+    "nutrition": {
+      "calories": 42,
+      "vitaminC": 31.2,
+      "fiber": 1.6
+    },
+    "nutrients": [
+      "维生素C",
+      "维生素A",
+      "茄红素",
+      "钾"
+    ],
+    "imageUrl": "images/grapefruit.jpg",
+    "videoUrl": "",
+    "funFact": "西柚与某些降血压药、降脂药会发生相互作用影响药效，服药期间需咨询医生。",
+    "status": "published"
+  },
+  {
+    "id": "fig",
+    "name": "无花果",
+    "scientificName": "Ficus carica",
+    "emoji": "🟢",
+    "category": "浆果类",
+    "region": "温带/亚热带",
+    "season": "夏秋季",
+    "summary": "无花果是桑科榕属植物，看似无花却有花，果实软糯甜蜜，历史最悠久的栽培果树之一。",
+    "description": "无花果为落叶灌木，\"果实\"实际是花序轴膨大形成的隐头花序，小花藏在里面。果皮紫褐或黄绿，果肉粉红软糯甜美。可鲜食、制干、做果酱。",
+    "nutrition": {
+      "calories": 74,
+      "vitaminC": 2,
+      "fiber": 2.9
+    },
+    "nutrients": [
+      "膳食纤维",
+      "钙",
+      "钾",
+      "铁",
+      "多酚"
+    ],
+    "imageUrl": "images/fig.jpg",
+    "videoUrl": "",
+    "funFact": "无花果的花开在果实里面！每个果内藏有数百朵小花，需要榕小蜂钻进去授粉。",
+    "status": "published"
+  },
+  {
+    "id": "loquat",
+    "name": "枇杷",
+    "scientificName": "Eriobotrya japonica",
+    "emoji": "🟠",
+    "category": "仁果类",
+    "region": "亚热带",
+    "season": "春末夏初",
+    "summary": "枇杷是蔷薇科枇杷属植物，\"初夏第一果\"，果肉细腻香甜，有润肺止咳功效。",
+    "description": "枇杷树为常绿小乔木，秋冬开花春夏结果。果实椭圆形或圆形，果皮橙黄有绒毛。果肉橙黄或白色，细腻多汁酸甜适口。常见品种有白玉、白沙、大红袍等。",
+    "nutrition": {
+      "calories": 38,
+      "vitaminC": 7.5,
+      "fiber": 1.7
+    },
+    "nutrients": [
+      "维生素A",
+      "维生素C",
+      "钾",
+      "膳食纤维"
+    ],
+    "imageUrl": "images/loquat.jpg",
+    "videoUrl": "",
+    "funFact": "枇杷冬季开花夏季结果，是\"果木中独备四时之气\"的奇树。枇杷膏是传统止咳良药。",
+    "status": "published"
+  },
+  {
+    "id": "honeydew",
+    "name": "蜜瓜",
+    "scientificName": "Cucumis melo var. inodorus",
+    "emoji": "🍈",
+    "category": "瓜果类",
+    "region": "温带",
+    "season": "夏秋季",
+    "summary": "蜜瓜是葫芦科甜瓜属植物，口感脆甜如蜜，香气清新，夏季消暑解渴佳品。",
+    "description": "蜜瓜为一年生藤本，果实圆形或椭圆形，果皮光滑呈淡绿或淡黄色。果肉翠绿或白色，口感脆甜多汁，含糖量高。常见品种有玉菇、西州蜜等。",
+    "nutrition": {
+      "calories": 36,
+      "vitaminC": 18,
+      "fiber": 0.9
+    },
+    "nutrients": [
+      "维生素C",
+      "钾",
+      "β-胡萝卜素",
+      "叶酸"
+    ],
+    "imageUrl": "images/honeydew.jpg",
+    "videoUrl": "",
+    "funFact": "\"蜜瓜\"因甜如蜜得名。挑选秘籍：闻底部有浓郁香气、按压稍软即成熟度最佳。",
+    "status": "published"
+  }
+]
