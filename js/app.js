@@ -1,11 +1,10 @@
 /* ============================================
-   水果知识档案 - 首页应用逻辑（多维筛选版 + JS预加载图片）
+   水果知识档案 - 首页应用逻辑（多维筛选 + 懒加载缩略图）
    ============================================ */
 
 (function () {
   'use strict';
 
-  // DOM 元素
   const fruitGrid = document.getElementById('fruitGrid');
   const searchInput = document.getElementById('searchInput');
   const searchClear = document.getElementById('searchClear');
@@ -17,16 +16,17 @@
   const filterSeason = document.getElementById('filterSeason');
   const filterRegion = document.getElementById('filterRegion');
 
-  // 状态
   let filters = { category: 'all', season: 'all', region: 'all' };
   let currentKeyword = '';
   let allFruits = [];
+  let observer = null;
 
   async function init() {
     allFruits = await FruitData.init();
     renderFilterChips('category', filterCategory, FruitData.getCategories());
     renderFilterChips('season', filterSeason, FruitData.getSeasons());
     renderFilterChips('region', filterRegion, FruitData.getRegions());
+    initObserver();
     renderCards();
     bindEvents();
   }
@@ -63,10 +63,12 @@
     }
     emptyState.style.display = 'none';
 
-    // 卡片不含 img 标签，只用 emoji
-    fruitGrid.innerHTML = fruits.map(fruit => `
+    fruitGrid.innerHTML = fruits.map(fruit => {
+      const hasImage = fruit.imageUrl && fruit.imageUrl.startsWith('images/');
+      const thumbSrc = hasImage ? 'images/thumb/' + fruit.imageUrl.replace('images/', '') : '';
+      return `
       <article class="fruit-card" data-id="${fruit.id}" onclick="location.href='detail.html?id=${encodeURIComponent(fruit.id)}'" role="link" tabindex="0">
-        <div class="card-image" data-img="${fruit.imageUrl || ''}">
+        <div class="card-image" data-thumb="${thumbSrc}">
           <span class="fruit-emoji">${fruit.emoji || '🍎'}</span>
           <span class="card-category">${fruit.category}</span>
         </div>
@@ -80,28 +82,40 @@
           </div>
         </div>
       </article>
-    `).join('');
+    `}).join('');
 
-    // 用 JS 预加载图片，成功后设为背景
-    preloadImages();
+    // 监听新渲染的卡片，按需加载图片
+    observeCards();
   }
 
-  function preloadImages() {
-    document.querySelectorAll('.card-image[data-img]').forEach(cardImage => {
-      const url = cardImage.dataset.img;
-      if (!url) return;
+  function initObserver() {
+    observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        const card = entry.target;
+        const thumb = card.dataset.thumb;
+        if (!thumb) return;
 
-      const img = new Image();
-      img.onload = function () {
-        cardImage.style.backgroundImage = `url('${url}')`;
-        cardImage.style.backgroundSize = 'cover';
-        cardImage.style.backgroundPosition = 'center';
-        cardImage.classList.add('has-bg');
-      };
-      img.onerror = function () {
-        // emoji 保持在原位
-      };
-      img.src = url;
+        // 加载缩略图作为背景
+        const img = new Image();
+        img.onload = function () {
+          card.style.backgroundImage = `url('${thumb}')`;
+          card.style.backgroundSize = 'cover';
+          card.style.backgroundPosition = 'center';
+          card.classList.add('has-bg');
+        };
+        img.src = thumb;
+
+        // 只加载一次
+        card.removeAttribute('data-thumb');
+        observer.unobserve(card);
+      });
+    }, { rootMargin: '200px' });
+  }
+
+  function observeCards() {
+    document.querySelectorAll('.card-image[data-thumb]').forEach(card => {
+      observer.observe(card);
     });
   }
 
